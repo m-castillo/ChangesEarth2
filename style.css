@@ -1,0 +1,239 @@
+/**{
+	outline: 1px solid red;
+}*/
+
+html, body {
+	width: 100%;
+	height: 100vh;
+}
+
+/* SETTING STYLES FOR ALL DIVS */
+
+.wrapper {
+	display: block;
+	width: 100%;
+	height: 100vh;
+    position: static;
+}
+
+#table {
+	display: table;
+	table-layout: fixed;
+	height: 100vh;
+	width: 900%;
+}
+
+#table>#cover {
+	display: table-cell;
+	background-color: hsla(249, 100%, 7%, 1);
+	width: 100%;
+	height: 100vh;
+}
+
+#banner {
+	color: white;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 100px;
+	width: 40%;
+	height: 550px;
+	line-height: 110px;
+	right: 0;
+	right: 15%;
+	top: 10%;
+	position: absolute;
+}
+
+#page2, #page3, #page4, #page5, #page6, #page7, #page8, #page9 {
+	width: 100%;
+	height: 100vh;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+} 
+
+.subtitle {
+	position: absolute;
+	margin-left: 50%;
+	margin-top: 25%;
+	font-size: 120px;
+}
+
+#table>#page2 {
+	background-image: linear-gradient(to right, hsla(249, 100%, 7%, 1), hsla(234, 69%, 19%, 1) 70%);
+	display: table-cell;
+}
+#table>#page3 {
+	background-color: hsla(234, 69%, 19%, 1);
+	display: table-cell;
+}
+#table>#page4 {
+	background-image: linear-gradient(to right, hsla(234, 69%, 19%, 1), hsla(230, 55%, 38%, 1) 60%);
+	display: table-cell;
+}
+#table>#page5 {
+	background-color: hsla(230, 55%, 38%, 1);
+	display: table-cell;
+}
+#table>#page6 {
+	background-image: linear-gradient(to right, hsla(230, 55%, 38%, 1), hsla(205, 100%, 29%, 1) 80%);
+	display: table-cell;
+}
+#table>#page7 {
+	background-color: hsla(205, 100%, 29%, 1);
+	display: table-cell;
+}
+#table>#page8 {
+	background-image: linear-gradient(to right, hsla(205, 100%, 29%, 1), hsla(249, 100%, 7%, 1) 70%);
+	display: table-cell;
+}
+#table>#page9 {
+	background-color: hsla(249, 100%, 7%, 1);
+	display: table-cell;
+}
+
+.clickMe {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 3px;
+	font-size: 20px;
+	line-height: 50px;
+	text-align: center;
+	background-color: hsla(360, 100%, 100%, 0.15);
+	height: 50px;
+	width: 250px;
+	border-radius: 2px;
+	margin-top: 25%;
+	margin-left: 90%;
+	position: absolute;
+	-webkit-transform: rotate(90deg);
+}
+
+#cover > .clickMe {
+	-webkit-font-smoothing: antialiased; 
+}
+
+.media {
+	margin-top: 2%;
+	margin-left: 100px;
+
+}
+
+.play, .picture, .diagram {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	line-height: 40px;
+	height: 45px;
+	width: 180px;
+	background-color: hsla(360, 100%, 100%, 0.1);
+	border-radius: 3px;
+	text-align: center;
+	float: left;
+}
+
+.play, .picture {
+	margin-right: 18px;
+}
+
+#volcanoVideo, #landslideVideo, #tsunamiVideo, #earthquakeVideo {
+	margin-left: 750px;
+	margin-top: -470px;
+	position: absolute;
+
+}
+
+/* VOLCANES */
+
+#volEn {
+	display: none;
+}
+
+#volSp, #volEn {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 23px;
+	line-height: 40px;
+	width: 40%;
+	margin-top: 80px;
+	margin-left: 100px;
+}
+
+#page3 > .clickMe {
+	margin-top: -300px;
+}
+
+/* DERRUMBES */
+
+#lsEn {
+	display: none;
+}
+
+#lsSp, #lsEn {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 23px;
+	line-height: 40px;
+	width: 40%;
+	margin-top: 80px;
+	margin-left: 100px;
+}
+
+#page5 > .clickMe {
+	margin-top: -300px;
+}
+
+#landslideVideo {
+	margin-top: -420px;
+}
+
+/* TSUNAMIS */
+
+#tsuEn {
+	display: none;
+}
+
+#tsuSp, #tsuEn {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 23px;
+	line-height: 40px;
+	width: 40%;
+	margin-top: 150px;
+	margin-left: 100px;
+}
+
+#page7 > .clickMe {
+	margin-top: -250px;
+}
+
+#tsunamiVideo {
+	margin-top: -420px;
+}
+
+/* TERREMOTOS */
+
+#eqEn {
+	display: none;
+}
+
+#eqSp, #eqEn {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 23px;
+	line-height: 40px;
+	width: 40%;
+	margin-top: 80px;
+	margin-left: 100px;
+}
+
+#page9 > .clickMe {
+	margin-top: -300px;
+}
+
+
+
+
+
+
