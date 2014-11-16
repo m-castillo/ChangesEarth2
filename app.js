@@ -3,15 +3,21 @@ $(document).ready(function(){
 	// COVER 
 
 	$("#bannerSp").click(function(){
-		$("#bannerSp").hide();
-		$("#bannerEn").show();
+		$("#bannerSp").fadeOut();
+		$("#bannerEn").fadeIn();
 	});
 
 	$("#bannerEn").click(function(){
-		$("#bannerEn").hide();
-		$("#bannerSp").show();
+		$("#bannerEn").fadeOut();
+		$("#bannerSp").fadeIn();
 	});
 
+	$("#hello").mouseenter(function(){
+		$("#subMenu").slideDown(600);
+	});
+	$("#hello").mouseleave(function(){
+		$("#subMenu").slideUp(600);
+	});
 
 	// VOLCANES
 

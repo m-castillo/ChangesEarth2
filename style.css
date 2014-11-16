@@ -1,7 +1,7 @@
-*{
+/**{
 	outline: 1px solid red;
 }
-
+*/
 html, body {
 	width: 100%;
 	height: 100%;
@@ -30,20 +30,6 @@ html, body {
 	height: 100vh;
 }
 
-#banner {
-	color: white;
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
-	font-size: 100px;
-	width: 40%;
-	height: 550px;
-	line-height: 110px;
-	right: 0;
-	right: 15%;
-	top: 10%;
-	position: absolute;
-}
 
 #page2, #page3, #page4, #page5, #page6, #page7, #page8, #page9 {
 	width: 100%;
@@ -157,6 +143,59 @@ html, body {
 
 }
 
+/* COVER */
+
+
+#bannerSp, #bannerEn {
+	color: white;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 100px;
+	width: 40%;
+	height: 550px;
+	line-height: 110px;
+	right: 0;
+	right: 15%;
+	top: 10%;
+	position: absolute;
+}
+
+#bannerEn {
+	display: none;
+}
+
+#hello {
+	position: absolute;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	position: absolute;
+	background-color: hsla(360, 100%, 100%, 0.15);
+	border-radius: 5px;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 600px;
+}
+
+#subMenu {
+	color: white;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	position: absolute;
+	width: 300px;
+	height: 420px;
+	line-height: 25px;
+	padding: 10px;
+	background-color: hsla(360, 100%, 100%, 0.08);
+	border-radius: 5px;
+	display: none;
+}
+
 /* VOLCANES */
 
 #volEn {
@@ -189,6 +228,14 @@ html, body {
 
 #page3 > .clickMe {
 	margin-top: -300px;
+}
+
+#volImage {
+	position: absolute;
+	height: 80%;
+	width: 50%;
+	margin-left: 90px;
+	margin-top: 50px;
 }
 
 /* DERRUMBES */
